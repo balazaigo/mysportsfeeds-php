@@ -217,6 +217,7 @@ class API_v2_0 extends API_v1_2 {
 
         } else {
             throw new \ErrorException("Unrecognized feed '" . $feed . "'.");
+
         }
 
     }
